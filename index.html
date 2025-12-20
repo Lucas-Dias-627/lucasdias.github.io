@@ -3,119 +3,245 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Lucas Dias Aires | Portfólio Front-End</title>
 
-  <meta name="description" content="Portfólio de Lucas Dias Aires, Desenvolvedor Front-End em formação, com projetos em HTML, CSS e JavaScript." />
-  <meta name="author" content="Lucas Dias Aires" />
-  <meta name="keywords" content="Front-End, HTML, CSS, JavaScript, Estágio TI, Portfólio Front-End" />
+  <title>Lucas Dias | Portfólio Front-End</title>
+
+  <meta
+    name="description"
+    content="Portfólio do desenvolvedor front-end Lucas Dias para compartilhar projetos, cursos e experiências."
+  />
 
   <link rel="shortcut icon" href="assets/favicon_io/favicon-16x16.png" type="image/x-icon" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+  />
+
   <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 
 <body>
 
-  <!-- HOME -->
+  <!-- HERO -->
   <main id="home">
-    <div class="main__content">
-      <h1>Soluções Criativas & Front-End</h1>
-      <p>Lucas Dias Aires | Desenvolvedor Front-End em Formação</p>
+    <div class="main__content1">
+      <h1>
+        <b>Soluções Criativas &</b><br />
+        Desenvolvimento Front-End
+      </h1>
 
-      <ul class="menu--social">
+      <p>Lucas Dias - Brasília-DF | Desenvolvedor Front-End em Formação.</p>
+
+      <ul class="menu menu--social">
         <li>
-          <a href="https://github.com/Lucas-Dias-627" target="_blank" aria-label="GitHub">
-            <i class="bi bi-github"></i>
+          <a class="menu__link" href="https://github.com/Lucas-Dias-627" target="_blank" aria-label="GitHub">
+            <i class="menu__icon bi bi-github"></i>
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/lucas-dias-3749b5101/" target="_blank" aria-label="LinkedIn">
-            <i class="bi bi-linkedin"></i>
+          <a class="menu__link" href="https://www.linkedin.com/in/lucas-dias-3749b5101/" target="_blank" aria-label="LinkedIn">
+            <i class="menu__icon bi bi-linkedin"></i>
           </a>
         </li>
       </ul>
     </div>
   </main>
 
-  <!-- SOBRE -->
-  <section id="sobre" class="about">
-    <h2>Sobre mim</h2>
+  <!-- PROJETOS -->
+  <section id="projetos" class="projects">
+    <h2>Meus Projetos e Conquistas</h2>
 
     <p>
-      Sou estudante de Análise e Desenvolvimento de Sistemas (5º período),
-      com foco em desenvolvimento Front-End.
-      Possuo conhecimentos em HTML5, CSS3 e JavaScript,
-      com experiência prática em projetos pessoais versionados com Git e GitHub.
-      Busco minha primeira oportunidade de estágio para aplicar minhas habilidades
-      e evoluir profissionalmente na área de tecnologia.
+      Confira meus projetos, cursos e conquistas na plataforma Digital Innovation One (DIO):
     </p>
 
-    <div class="about__buttons">
-      <a href="/Curriculo_Lucas_Dias_Aires_2025_2026.pdf" download class="btn btn--primary">
-        📄 Baixar Currículo
-      </a>
-      <a href="https://wa.me/5561981031629" target="_blank" class="btn">
-        💬 WhatsApp
-      </a>
+    <a
+      href="https://web.dio.me/users/lucasairies?tab=achievements"
+      target="_blank"
+      class="btn btn--primary"
+      aria-label="Ver perfil na DIO"
+    >
+      Ver Perfil na DIO
+      <i class="bi bi-box-arrow-up-right"></i>
+    </a>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre" class="about">
+    <div class="about__content1">
+      <img
+        class="about__photo"
+        src="assets/images/Avatar.jpg"
+        alt="Foto de Lucas Dias"
+      />
+
+      <div class="about__description">
+        <h2>Sobre mim</h2>
+
+        <p>
+          Sou estudante de Análise e Desenvolvimento de Sistemas (5º período), apaixonado por tecnologia e desenvolvimento web.
+          Tenho foco na criação de interfaces responsivas com HTML, CSS e JavaScript.
+          Busco minha primeira oportunidade em estágio para aplicar minhas habilidades técnicas e contribuir com projetos de impacto.
+        </p>
+
+        <div class="description__buttons">
+          <a
+            href="https://www.linkedin.com/in/lucas-dias-3749b5101/"
+            target="_blank"
+            rel="noopener"
+            class="btn btn--primary"
+          >
+            Conecte-me <i class="bi bi-arrow-up-right"></i>
+          </a>
+
+          <a
+            href="Curriculo_Lucas_Dias_Aires_2025_2026.pdf"
+            download
+            class="btn"
+          >
+            📄 Baixar Currículo
+          </a>
+
+          <a
+            href="https://wa.me/5561981031629"
+            target="_blank"
+            rel="noopener"
+            class="btn btn--primary"
+          >
+            💬 Fale Comigo no WhatsApp
+          </a>
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- PROJETOS -->
-  <section id="projetos" class="projects">
-    <h2>Projetos Pessoais</h2>
+  <!-- CURRÍCULO -->
+  <section id="curriculo" class="resume">
+    <h2>Currículo</h2>
 
-    <div class="projects__grid">
+    <div class="resume__section">
+      <h3>Formação Acadêmica</h3>
+      <ul class="resume__list">
+        <li>
+          <strong>Tecnólogo em Análise e Desenvolvimento de Sistemas</strong><br />
+          Gran Cursos Faculdade — 5º Período | Conclusão prevista: Março/2026
+        </li>
+      </ul>
+    </div>
 
-      <article class="project__card">
-        <h3>Página Pessoal – Portfólio</h3>
-        <p>
-          Site pessoal desenvolvido com HTML5, CSS3 e JavaScript
-          para apresentação profissional e divulgação de projetos.
-        </p>
+    <div class="resume__section">
+      <h3>Competências Técnicas</h3>
+      <ul class="resume__list">
+        <li>Front-End: HTML5, CSS3 (Intermediário), JavaScript (Finalizado/2025)</li>
+        <li>Ferramentas: Git/GitHub (Finalizado), Visual Studio Code</li>
+        <li>Outras: Lógica de Programação, Pacote Office</li>
+      </ul>
+    </div>
 
-        <div class="project__buttons">
-          <a href="https://lucas-dias-627.github.io/lucasdias.github.io/" target="_blank" class="btn btn--primary">
-            🔗 Ver Projeto
-          </a>
-          <a href="https://github.com/Lucas-Dias-627/js-yugioh-assets-main" target="_blank" class="btn">
-            💻 GitHub
-          </a>
-        </div>
-      </article>
+    <div class="resume__section">
+      <h3>Projetos Pessoais</h3>
+      <ul class="resume__list">
+        <li>
+          <strong>Página Pessoal - Portfólio Simples</strong><br />
+          Desenvolvimento de um site pessoal para exibir projetos e habilidades utilizando HTML5, CSS3 e JavaScript.<br />
+          <a href="https://lucas-dias-627.github.io/lucasdias.github.io/" target="_blank">Ver Projeto</a>
+        </li>
 
-      <article class="project__card">
-        <h3>Yu-Gi-Oh Assets</h3>
-        <p>
-          Projeto interativo desenvolvido durante estudos de JavaScript,
-          aplicando lógica de programação, eventos e manipulação do DOM.
-        </p>
+        <li>
+          <strong>Yu-Gi-Oh Assets – Projeto Base</strong><br />
+          Projeto desenvolvido durante curso de JavaScript e CSS, criando um
+          <strong>jogo de cartas digital inspirado em Yu-Gi-Oh!</strong><br />
+          Aplicação prática de <strong>HTML, CSS e JavaScript</strong>.<br />
+          <a href="https://github.com/Lucas-Dias-627/js-yugioh-assets-main" target="_blank">Ver no GitHub</a>
+        </li>
+      </ul>
+    </div>
 
-        <div class="project__buttons">
-          <a href="https://lucas-dias-627.github.io/js-yugioh-assets-main/" target="_blank" class="btn btn--primary">
-            🎮 Ver Projeto
-          </a>
-          <a href="https://github.com/Lucas-Dias-627/js-yugioh-assets-main" target="_blank" class="btn">
-            💻 GitHub
-          </a>
-        </div>
-      </article>
+    <div class="resume__section">
+      <h3>Experiência Profissional</h3>
+      <ul class="resume__list">
+        <li>
+          <strong>Estoquista Pleno – Primeira Linha</strong><br />
+          Brasília – DF | junho/2024 – junho/2025<br />
+          • Redução de inconsistências no inventário.<br />
+          • Otimização do layout do depósito, acelerando processos.<br />
+          • Treinamento de novos colaboradores.
+        </li>
 
+        <li>
+          <strong>Gerente de Produção – Flow Kombucha</strong><br />
+          Brasília – DF | julho/2021 – outubro/2023<br />
+          • Supervisão de operação e controle sanitário com 98% de conformidade.<br />
+          • Redução de perdas e melhorias no armazenamento.<br />
+          • Coordenação de equipe e treinamentos internos.
+        </li>
+
+        <li>
+          <strong>Outras Experiências:</strong><br />
+          • Auxiliar de Segurança – 5 Estrelas Especial Service (2017–2018)<br />
+          • Soldado – Exército Brasileiro (2015–2016)<br />
+          • Estagiário Administrativo – Ministério dos Transportes (2013–2015)
+        </li>
+      </ul>
+    </div>
+
+    <div class="resume__section">
+      <h3>Cursos Complementares</h3>
+      <ul class="resume__list">
+        <li>Bootcamp Front-End Developer – DIO / Santander (102h)</li>
+        <li>HTML e CSS – Curso em Vídeo (40h)</li>
+        <li>Algoritmos – Curso em Vídeo (30h)</li>
+        <li>JavaScript – Digital Innovation One</li>
+        <li>Git/GitHub – Curso em Vídeo</li>
+        <li>Formação React Developer – DIO (em andamento)</li>
+        <li>Fundamentos de TI – Fundação Bradesco</li>
+      </ul>
+    </div>
+
+    <div class="resume__section">
+      <h3>Informações Adicionais</h3>
+      <ul class="resume__list">
+        <li>CNH: A e B</li>
+        <li>Inglês: Básico</li>
+        <li>Disponibilidade para atuação em Brasília – DF</li>
+      </ul>
     </div>
   </section>
 
   <!-- CONTATO -->
   <section id="contato" class="contact">
-    <h2>Contato</h2>
-    <p>Aberto para oportunidades de estágio e projetos.</p>
+    <h2>Contate-me</h2>
+
+    <p>
+      Estou disponível para oportunidades de estágio, novos projetos e conexões profissionais.
+      Contate-me via e-mail ou pelas minhas redes sociais.
+    </p>
+
+    <ul class="menu menu--social">
+      <li>
+        <a class="menu__link" href="https://github.com/Lucas-Dias-627" target="_blank">
+          <i class="menu__icon bi bi-github"></i> GitHub
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="https://www.linkedin.com/in/lucas-dias-3749b5101/" target="_blank">
+          <i class="menu__icon bi bi-linkedin"></i> LinkedIn
+        </a>
+      </li>
+    </ul>
 
     <a href="mailto:lucasairies@gmail.com" class="btn btn--primary">
       lucasairies@gmail.com
     </a>
   </section>
 
+  <!-- FOOTER -->
   <footer>
     <p>
-      © 2025 — Portfólio de Lucas Dias Aires
+      © 2025. Portfólio desenvolvido para fins educativos no Lab "Construindo seu Portfólio Front-end do Zero" da
+      <a href="https://www.dio.me/" target="_blank" rel="noopener">Digital Innovation One</a> por
+      <a href="https://github.com/Lucas-Dias-627" target="_blank" rel="noopener">Lucas Dias</a>.
     </p>
   </footer>
 
