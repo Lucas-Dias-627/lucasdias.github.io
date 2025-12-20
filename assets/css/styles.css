@@ -195,3 +195,11 @@ footer {
     justify-content: center;
   }
 }
+.menu__link {
+  position: relative;
+  z-index: 10;
+}
+
+.menu__icon {
+  pointer-events: none;
+}
